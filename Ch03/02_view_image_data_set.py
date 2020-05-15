@@ -18,9 +18,9 @@ cifar10_class_names = {
 # Load the entire data set
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 
-# Loop through each picture in the data set
+# Loop through each picture in the data set หนึ่งพันรูปแรก
 for i in range(1000):
-    # Grab an image from the data set
+    # Grab an image from the data set 
     sample_image = x_train[i]
     # Grab the image's expected class id
     image_class_number = y_train[i][0]
